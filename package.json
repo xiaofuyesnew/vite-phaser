@@ -1,0 +1,41 @@
+{
+  "name": "vite-phaser",
+  "description": "A web application of admin based on PURE Javascript.",
+  "author": {
+    "name": "Allen Wong",
+    "email": "xiaofuyesnew@qq.com",
+    "url": "https://xiaofuyesnew.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaofuyesnew/vite-phaser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xiaofuyesnew/vite-phaser/issues"
+  },
+  "homepage": "https://github.com/xiaofuyesnew/vite-phaser",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm -F @boretech/admin dev",
+    "build": "pnpm -F @boretech/admin build",
+    "preview": "pnpm -F @boretech/admin preview",
+    "lint": "pnpm -F @boretech/admin lint",
+    "server:dev": "pnpm -F @boretech/server dev",
+    "server:build": "pnpm -F @boretech/server build",
+    "server:start": "pnpm -F @boretech/server start",
+    "server:pm2": "pnpm -F @boretech/server pm2",
+    "docs:dev": "pnpm -F docs docs:dev",
+    "docs:build": "pnpm -F docs docs:build",
+    "docs:preview": "pnpm -F docs docs:preview"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.9",
+    "qs": "^6.11.2"
+  }
+}
