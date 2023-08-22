@@ -1,0 +1,38 @@
+{
+  "name": "create-phaser",
+  "version": "0.0.1",
+  "type": "module",
+  "license": "MIT",
+  "author": "Allen Wong <xiaofuyesnew@qq.com>",
+  "bin": {
+    "create-phaser": "index.js",
+    "cpg": "index.js"
+  },
+  "files": [
+    "index.js",
+    "vite-phaser-*",
+    "dist"
+  ],
+  "scripts": {
+    "dev": "unbuild --stub",
+    "build": "unbuild"
+  },
+  "engines": {
+    "node": ">=18.0.0 || >=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaofuyesnew/vite-phaser.git",
+    "directory": "packages/create-vite"
+  },
+  "bugs": {
+    "url": "https://github.com/xiaofuyesnew/vite-phaser/issues"
+  },
+  "homepage": "https://github.com/xiaofuyesnew/vite-phaser/tree/main/packages/create-phaser#readme",
+  "devDependencies": {
+    "cross-spawn": "^7.0.3",
+    "kolorist": "^1.8.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2"
+  }
+}

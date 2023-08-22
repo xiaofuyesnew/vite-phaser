@@ -19,23 +19,14 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "pnpm -F @boretech/admin dev",
-    "build": "pnpm -F @boretech/admin build",
-    "preview": "pnpm -F @boretech/admin preview",
-    "lint": "pnpm -F @boretech/admin lint",
-    "server:dev": "pnpm -F @boretech/server dev",
-    "server:build": "pnpm -F @boretech/server build",
-    "server:start": "pnpm -F @boretech/server start",
-    "server:pm2": "pnpm -F @boretech/server pm2",
+    "dev": "pnpm -F create-phaser dev",
+    "build": "pnpm -F create-phaser build",
     "docs:dev": "pnpm -F docs docs:dev",
     "docs:build": "pnpm -F docs docs:build",
     "docs:preview": "pnpm -F docs docs:preview"
   },
   "license": "MIT",
-  "dependencies": {
-    "axios": "^1.4.0",
-    "crypto-js": "^4.1.1",
-    "dayjs": "^1.11.9",
-    "qs": "^6.11.2"
+  "devDependencies": {
+    "unbuild": "^1.2.1"
   }
 }
