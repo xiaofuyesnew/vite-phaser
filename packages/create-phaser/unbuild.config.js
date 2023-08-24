@@ -1,7 +1,7 @@
 import {defineBuildConfig} from 'unbuild'
 
 export default defineBuildConfig({
-  entries: ['src/index.js'],
+  entries: ['src/index.mjs'],
   output: {
     format: 'esm',
     file: 'dist/index.mjs'
