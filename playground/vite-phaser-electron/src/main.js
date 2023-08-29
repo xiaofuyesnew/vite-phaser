@@ -1,21 +1,14 @@
 import './style.css'
 
 import { Game, AUTO } from 'phaser'
-import Demo from './scene/Demo'
+import Counter from './scene/Counter'
 
 const config = {
   type: AUTO,
   parent: 'app',
   width: 800,
   height: 600,
-  physics: {
-    default: 'arcade',
-    arcade: {
-      gravity: { y: 300 },
-      debug: false
-    }
-  },
-  scene: [Demo]
+  scene: [Counter]
 }
 
 export default new Game(config)
