@@ -1,8 +1,12 @@
-const {app, BrowserWindow} = require('electron')
-const {join} = require('path')
+const { app, BrowserWindow, Menu } = require('electron')
+const { join } = require('path')
+
+Menu.setApplicationMenu(null)
 
 const createWindow = () => {
   const win = new BrowserWindow({
+    width: 810,
+    height: 636,
     webPreferences: {
       contextIsolation: false,
       nodeIntegration: true,

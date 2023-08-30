@@ -22,8 +22,8 @@
     "phaser": "^3.60.0"
   },
   "build": {
-    "appId": "com.smallpig.desktop",
-    "productName": "smallpig",
+    "appId": "com.phaser.desktop",
+    "productName": "phaser",
     "asar": true,
     "copyright": "Copyright © 2022 smallpig",
     "directories": {
