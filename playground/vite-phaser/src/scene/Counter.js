@@ -1,4 +1,7 @@
 import { Scene } from 'phaser'
+import vite from '../assets/vite.png'
+import phaser from '../assets/phaser.png'
+import button from '../assets/button.png'
 
 export const namespace = {
   counter: 0
@@ -15,9 +18,9 @@ export default class Counter extends Scene {
   }
 
   preload() {
-    this.load.image('vite', '/assets/vite.png')
-    this.load.image('phaser', '/assets/phaser.png')
-    this.load.image('button', '/assets/button.png')
+    this.load.image('vite', vite)
+    this.load.image('phaser', phaser)
+    this.load.image('button', button)
   }
 
   create() {
