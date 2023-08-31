@@ -1,9 +1,9 @@
 const { app, BrowserWindow, Menu } = require('electron')
 const { join } = require('path')
 
-Menu.setApplicationMenu(null)
-
 const createWindow = () => {
+  Menu.setApplicationMenu(null)
+
   const win = new BrowserWindow({
     width: 810,
     height: 636,
@@ -19,6 +19,9 @@ const createWindow = () => {
   } else {
     win.loadURL('https://localhost:5173')
   }
+
+  // uncomment below to open the DevTools
+  // win.webContents.openDevTools()
 }
 
 app.whenReady().then(() => {

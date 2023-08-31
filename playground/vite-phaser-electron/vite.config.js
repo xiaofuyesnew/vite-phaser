@@ -6,6 +6,7 @@ import mkcert from 'vite-plugin-mkcert'
 import electron from "vite-plugin-electron"
 
 export default defineConfig({
+  base: './',
   plugins: [
     mkcert(),
     electron({
