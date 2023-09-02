@@ -1,0 +1,27 @@
+{
+  "name": "Vite Phaser Extension",
+  "description": "Vite Phaser Extension",
+  "version": "0.0.0",
+  "manifest_version": 3,
+  "permissions": [
+    "*//:*/*",
+    "storage",
+    "cookies"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "index.html"
+  }
+}
