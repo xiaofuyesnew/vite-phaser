@@ -6,6 +6,8 @@ import fs from 'fs-extra'
 import { lightYellow, lightGreen } from 'kolorist'
 import validate from 'validate-npm-package-name'
 
+
+
 (async () => {
   const { copy, moveSync, readJsonSync, writeJsonSync } = fs
 
