@@ -1,6 +1,6 @@
 {
   "name": "create-phaser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "license": "MIT",
   "author": "Allen Wong <xiaofuyesnew@qq.com>",
@@ -10,7 +10,7 @@
   },
   "files": [
     "index.js",
-    "vite-phaser-*",
+    "vite-phaser-*/**/*",
     "dist"
   ],
   "scripts": {
