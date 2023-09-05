@@ -101,7 +101,8 @@ import validate from 'validate-npm-package-name'
       type: 'text',
       name: 'projectName',
       message: 'What is your project name?',
-      initial: response.template === 'default' ? 'vite-phaser' : `vite-phaser-${response.template}`
+      initial: response.template === 'default' ? 'vite-phaser' : `vite-phaser-${response.template}`,
+      validate: value => validate(value, { allowEmpty: true }).validForNewPackages ? true : 'Invalid project name'
     })).projectName
   } else {
     response.projectName = argv._[0]
