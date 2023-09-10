@@ -8,4 +8,13 @@
   </a>
 </p>
 
+<p align="center" dir="auto">
+  <a href="">
+    <img src="https://img.shields.io/npm/v/create-phaser" />
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/npm/l/create-phaser" />
+  </a>
+</p>
+
 # Vite ⚡ Phaser 🎮
