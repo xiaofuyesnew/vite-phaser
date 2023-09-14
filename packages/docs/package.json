@@ -1,3 +1,4 @@
 {
-  "name": "@vite-phaser/docs"
+  "name": "@vite-phaser/docs",
+  "private": true
 }
