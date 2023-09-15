@@ -44,17 +44,10 @@
 
 If you like this project, you can buy me a coffee:
 
-<div style="display: flex;justify-content: space-around;">
-  <span>
-    <span>If you're in China:</span>
-    <br>
-    <br>
-    <img style="max-width: 220px;max-height: 220px;" src="./images/afdian.jfif" />
-  </span>
-  <span>
-    <span>If you're out of China:</span>
-    <br>
-    <br>
-    <img style="max-width: 220px;max-height: 220px;" src="./images/bmc_qr.png" />
-  </span>
-</div>
+If you're out of China
+
+<img height="220" src="./images/bmc_qr.png" />
+
+If you're in China
+
+<img height="220" src="./images/afdian.jfif" />
