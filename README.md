@@ -50,4 +50,4 @@ If you're out of China
 
 If you're in China
 
-<img height="220" src="./images/afdian.jfif" />
+<img width="220" src="./images/afdian.jfif" />
