@@ -1,4 +1,13 @@
 {
   "name": "@vite-phaser/docs",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "vite-plugin-mkcert": "^1.16.0",
+    "vitepress": "1.0.0-rc.13"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
 }
