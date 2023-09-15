@@ -10,11 +10,41 @@ export default defineConfig({
       mkcert()
     ]
   },
+  locales: {
+      root: {
+        label: 'English',
+        lang: 'en-US',
+      },
+      zh: {
+        label: '简体中文',
+        lang: 'zh-CN',
+        themeConfig: {
+          nav: [
+            { text: '首页', link: '/' },
+            { text: '文档', link: '/markdown-examples' }
+          ],
+
+          sidebar: [
+            {
+              text: '指南',
+              items: [
+                { text: '快速开始', link: '/markdown-examples' },
+                { text: 'Runtime API Examples', link: '/api-examples' }
+              ]
+            }
+          ],
+
+          socialLinks: [
+            { icon: 'github', link: 'https://github.com/xiaofuyesnew/vite-phaser' }
+          ]
+        }
+      }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Docs', link: '/markdown-examples' }
     ],
 
     sidebar: [

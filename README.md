@@ -25,7 +25,7 @@
 - 🗂️ Most platforms available
 - 🦾 Continuous enhancement
 
-## Included
+## Platforms
 
 |Platform |Description |
 |---------|:-----------|
@@ -36,5 +36,21 @@
 
 ## Working on
 
-- 📝 Documents
 - [![cordova](https://img.shields.io/badge/cordova-gray?logo=apachecordova)](https://cordova.apache.org/) Add cordova Phaser game template for mobile app
+- 📝 Docs
+- 🦿 CI and more engineering
+
+## Sponsor
+
+If you like this project, you can buy me a coffee:
+
+<p style="width:100%;display: flex;justify-content: center;">
+  <p>
+    <p>If you're in China:</p>
+    <img width="180" src="./images/afdian.jfif" />
+  </p>
+  <p>
+    <p>If you're out of China:</p>
+    <img width="180" src="./images/bmc_qr.png" />
+  </p>
+</p>
